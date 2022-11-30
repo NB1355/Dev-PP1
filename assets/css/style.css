@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+body{
+    font-family: Lato, sans-serif;
+    color: #3a3a3a;
+}
+
+h1,h2{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+/*Header Area*/ 
+
+    #logo {
+        float: left;
+        font-size: 280%;
+        margin-left: 30px;
+    }
+
+   
+    #menu{
+        font-size: 110%;
+        letter-spacing: 4px;
+    }
+
+    #menu, #logo {
+        line-height: 75px;
+    }
+
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 0px;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+
+/*select*/
+    #select {
+        background-image: url('../images/mountain02.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        width: 100%;
+        overflow:hidden;
+
+    }
+
+    #select div {
+        color: #fafafa;
+        background-color: rgba(0, 0, 0, .6);
+        width: 40%;
+        height: 400px;
+        float: left;
+        padding: 30px 0 0 10px ;
+        text-align: center;
+        border: 1px solid white;
+        box-sizing: border-box;
+    }
+
+    #select h2 {
+        color: #fafafa;
+    }
+
+
+/*timeline*/    
+    #timeline {
+        background-image: url('../images/mountain01.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        width: 100%;
+        overflow:hidden;
+        margin-top: 20px;
+    }
+    
+    #timeline div {
+        color: #fafafa;
+        background-color: rgba(0, 0, 0, .6);
+        width: 7.142%;
+        height: 400px;
+        float: left;
+        padding: 30px 0 0 10px ;
+        text-align: center;
+        border: 1px solid white;
+        
+        box-sizing: border-box;
+    }
+    
+    #timeline h2 {
+        color: #fafafa;
+    }
+
+/*footer*/
+footer {
+    height: 100px;
+    margin-left: 0px;
+   
+}
+
+footer ul {
+    text-align: left;  
+}
+
+footer li {
+    display:inline-block;
+    margin-right: 4%;
+  
+}    
+
+footer i{
+   
+    font-size: 160%;
+    color: #3a3a3a;
+
+}  

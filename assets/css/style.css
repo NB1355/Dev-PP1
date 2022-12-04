@@ -48,109 +48,10 @@ h1,h2{
     }
 
 
-
-/*============================================= SELECT ========*/    
-#select {
-
-    background-position: top;
-    border: 2px solid red;
-    width: 100%;
-    overflow: hidden;
-}
-#select h2 {
-    color: #3a3a3a;
-}
-
-#select div {
-
-    height: 150px;
-    float: left;
-    padding: 10px 0 0 10px ;
-    text-align: left;
-}
-
-.btn {
-    border: none;
-    outline: none;
-    padding: 12px 16px;
-    background-color: yellow;
-    cursor: pointer;
-    font: red;
-  }
-  
-  .btn:hover {
-    background-color: #9c2222;
-   
-  }
-  
-  .btn.active {
-    background-color: #3a3a3a;
-  }
-
-
-
-
-#sec1, #sec2 {
-        background-image: url('../images/mountain02.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top;
-        width: 100%;
-        overflow:hidden;
-    }
-    
-   
-
-
-    
-      
-    .filterDiv {
-        float: left;
-        background-color: red; 
-        color: #ffffff;
-        width: 100px;
-        line-height: 100px;
-        text-align: center;
-        margin: 2px;
-        display: none; /* Hidden by default */
-      }
-      
-    .show {
-        display: block;
-      }
-      
-  
-/*============================================ TIMELINE ========*/    
-    #timeline {
-        background-image: url('../images/mountain01.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: top;
-        width: 100%;
-        overflow:hidden;
-        margin-top: 20px;
-    }
-    
-    #timeline div {
-        color: #fafafa;
-        background-color: rgba(0, 0, 0, .6);
-        width: 7.142%;
-        height: 400px;
-        float: left;
-        padding: 30px 0 0 10px ;
-        text-align: center;
-        border: 1px solid white;
-        
-        box-sizing: border-box;
-    }
-    
-    #timeline h2 {
-        color: #fafafa;
-    }
-
-/*============================================== FOOTER ========*/    
+/*=========================================== FOOTER ========*/    
 
     footer {
+       margin-top: 100px;
         height: 100px;
         margin-left: 0px;
     
@@ -172,3 +73,42 @@ h1,h2{
     }  
 
 /*==============================================================*/
+.tabs {
+    list-style: none; 
+    position: relative; 
+    margin:0;
+    padding: 400px;
+    width: 100%;  
+    font-family: sans-serif
+  }
+  .tabs li {
+    display: inline-block;
+  }
+  .tabs input[type="radio"] {
+    display: none;
+  }
+  .tabs label {
+    display: block;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-bottom: 0;
+    border-radius: 3px 3px 0 0;
+  }
+  .tabs .tab-panel {  
+    display: none;
+    overflow: hidden;
+    width: 100%;  
+    position: absolute;
+    left: 0;
+    border-top: 2px solid black;
+  }
+
+  .tabs [id^="tab"]:checked + label {   
+    background-color: black;
+    color: #fff;
+  }
+  .tabs [id^="tab"]:checked ~ [id^="tab-panel"] {
+    display: block;
+  }
+  

@@ -1,120 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-body{
-    font-family: Lato, sans-serif;
-    color: #3a3a3a;
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-h1,h2{
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
+body {
+  font-family: Lato, sans-serif;
+  color: #3a3a3a;
 }
 
-/*============================================ HEADER ========*/ 
+h1,
+h2 {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #252525;
+}
 
-    #logo {
-        float: left;
-        font-size: 280%;
-        margin-left: 30px;
-    }
+/*============================================ HEADER ========*/
 
-   
-    #menu{
-        font-size: 110%;
-        font-weight: bold;
-        letter-spacing: 4px;
-    }
-
-    #menu, #logo {
-        line-height: 75px;
-        align-items: center;
-        
-    }
-
-    #menu li {
-        float: right;
-        list-style-type: none;
-        margin-right: 20px;
-    }
-
-    #menu a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
-    }
+#logo {
+  float: left;
+  font-size: 240%;
+  margin-left: 30px;
+}
 
 
-/*=========================================== FOOTER ========*/    
+#menu {
+  font-size: 110%;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
 
-    footer {
-       margin-top: 100px;
-        height: 100px;
-        margin-left: 0px;
-    
-    }
+#menu,
+#logo {
+  line-height: 75px;
+  align-items: center;
 
-    footer ul {
-        text-align: left;  
-    }
+}
 
-    footer li {
-        display:inline-block;
-        margin-right: 4%;
-    }    
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 20px;
+}
 
-    footer i {
-    
-        font-size: 160%;
-        color: #3a3a3a;
-    }  
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+
+/*=========================================== FOOTER ========*/
+
+footer {
+  margin-top: 500px;
+  height: 100px;
+  margin-left: 30px;
+
+}
+
+footer ul {
+  text-align: left;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 4%;
+}
+
+footer i {
+
+  font-size: 160%;
+  color: #3a3a3a;
+}
 
 /*==============================================================*/
 .tabs {
-    list-style: none; 
-    position: relative; 
-    margin:0;
-    padding: 150px;
-    width: 100%;  
-    font-family: sans-serif
-  }
-  .tabs li {
-    display: inline-block;
-  }
-  .tabs input[type="radio"] {
-    display: none;
-  }
-  .tabs label {
-    display: block;
-    cursor: pointer;
-    padding: 10px 15px;
-    border: 2px solid black;
-    border-bottom: 0;
-    border-radius: 3px 3px 0 0;
-  }
-  .tabs .tab-panel {  
-    display: none;
-    overflow: hidden;
-    width: 100%;  
-    position: absolute;
-    left: 30px;
-    border-top: 2px solid black;
-  }
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 125px;
+  width: 100%;
+  font-family: sans-serif
+}
 
-  .tabs p {
-    font-size: large;
-    color: red;
-  }
+.tabs li {
+  display: inline-block;
+}
 
-  .tabs [id^="tab"]:checked + label {   
-    background-color: black;
-    color: #fff;
-  }
-  .tabs [id^="tab"]:checked ~ [id^="tab-panel"] {
-    display: block;
-  }
+.tabs input[type="radio"] {
+  display: none;
+}
+
+.tabs label {
+  display: block;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: 1px solid #3a3a3a;
+  border-bottom: 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.tabs .tab-panel {
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  position: Absolutr;
+  border-top: 1px solid #3a3a3a;
+  height: 500px;
+}
+
+.tabs p {
+  font-size: large;
+  color: red;
+  margin-left: 30px;
+  margin-top: 30px;
   
+}
+
+#tab-panel1 {
+  background: url('../images/mountain01.jpg') no-repeat center center;
+ 
+}
+
+#tab-panel2 {
+  background: url('../images/mountain02.jpg') no-repeat center center;
+ 
+}
+
+#tab-panel3 {
+  background: url('../images/mountain03.jpg') no-repeat center center;
+  
+}
+
+.tabs [id^="tab"]:checked+label {
+  background-color: #3a3a3a;
+  color: #fff;
+}
+
+.tabs [id^="tab"]:checked~[id^="tab-panel"] {
+  display: block;
+}

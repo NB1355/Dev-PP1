@@ -29,6 +29,7 @@ h1,h2{
 
     #menu, #logo {
         line-height: 75px;
+        align-items: center;
         
     }
 
@@ -77,7 +78,7 @@ h1,h2{
     list-style: none; 
     position: relative; 
     margin:0;
-    padding: 400px;
+    padding: 150px;
     width: 100%;  
     font-family: sans-serif
   }
@@ -100,8 +101,13 @@ h1,h2{
     overflow: hidden;
     width: 100%;  
     position: absolute;
-    left: 0;
+    left: 30px;
     border-top: 2px solid black;
+  }
+
+  .tabs p {
+    font-size: large;
+    color: red;
   }
 
   .tabs [id^="tab"]:checked + label {   

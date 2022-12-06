@@ -22,7 +22,7 @@ h2 {
 /*============================================ HEADER ========*/
 
 #logo {
-  float: left;
+  float:left;
   font-size: 240%;
   margin-left: 30px;
 }
@@ -53,17 +53,99 @@ h2 {
 }
 
 #menu a:hover {
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid red;
 }
 
+/*================*/
+
+#a {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#b {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-color: red;
+}
+
+/*==============================================================*/
+
+.tabs {
+  list-style: none;
+  position: relative;
+  width: 100%;
+  font-family: sans-serif
+
+}
+
+.tabs input[type="radio"] {
+  display: none;
+}
+
+.tabs li {
+  display: block;
+}
+.tabs label {
+  display: block;
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: aqua;
+  border-bottom: 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.tabs .tab-panel {
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  position: Absolutr;
+  border-top: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
+  height: 500px;
+}
+
+.tabs p {
+  font-size: large;
+  color: red;
+  margin-left: 30px;
+  margin-top: 30px;
+
+}
+
+#tab-panel1 {
+  background: url('../images/mountain01.jpg') no-repeat center center;
+
+}
+
+#tab-panel2 {
+  background: url('../images/mountain02.jpg') no-repeat center center;
+
+}
+
+#tab-panel3 {
+  background: url('../images/mountain03.jpg') no-repeat center center;
+
+}
+
+.tabs [id^="tab"]:checked+label {
+  background-color: #3a3a3a;
+  color: #fff;
+}
+
+.tabs [id^="tab"]:checked~[id^="tab-panel"] {
+  display: block;
+}
 
 /*=========================================== FOOTER ========*/
 
 footer {
-  margin-top: 500px;
+  position: relative;
   height: 100px;
   margin-left: 30px;
-
+  margin-top: 30px;
 }
 
 footer ul {
@@ -79,72 +161,4 @@ footer i {
 
   font-size: 160%;
   color: #3a3a3a;
-}
-
-/*==============================================================*/
-.tabs {
-  list-style: none;
-  position: relative;
-  margin: 0;
-  padding: 125px;
-  width: 100%;
-  font-family: sans-serif
-}
-
-.tabs li {
-  display: inline-block;
-}
-
-.tabs input[type="radio"] {
-  display: none;
-}
-
-.tabs label {
-  display: block;
-  cursor: pointer;
-  padding: 10px 15px;
-  border: 1px solid #3a3a3a;
-  border-bottom: 0;
-  border-radius: 3px 3px 0 0;
-}
-
-.tabs .tab-panel {
-  display: none;
-  overflow: hidden;
-  width: 100%;
-  position: Absolutr;
-  border-top: 1px solid #3a3a3a;
-  height: 500px;
-}
-
-.tabs p {
-  font-size: large;
-  color: red;
-  margin-left: 30px;
-  margin-top: 30px;
-  
-}
-
-#tab-panel1 {
-  background: url('../images/mountain01.jpg') no-repeat center center;
- 
-}
-
-#tab-panel2 {
-  background: url('../images/mountain02.jpg') no-repeat center center;
- 
-}
-
-#tab-panel3 {
-  background: url('../images/mountain03.jpg') no-repeat center center;
-  
-}
-
-.tabs [id^="tab"]:checked+label {
-  background-color: #3a3a3a;
-  color: #fff;
-}
-
-.tabs [id^="tab"]:checked~[id^="tab-panel"] {
-  display: block;
 }

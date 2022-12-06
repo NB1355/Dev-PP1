@@ -19,9 +19,7 @@ h2 {
   color: #0c162c; 
 }
 
-p{
-  font-size: 110%;
-}
+
 /*============================================ HEADER ========*/
 
 #logo {
@@ -119,39 +117,113 @@ p{
 }
 
 .tabs p {
-  font-size: large;
-  color: red;
+  
   margin-left: 30px;
   margin-top: 30px;
 
 }
 
-#tab-pan-1 {
-  background-color: #98c004;
-}
-#tab-pan-2 {
-  background: url('../images/mountain02.jpg') no-repeat center center;
-
+/*=========================================== PAN1 ========*/
+#tab-pan1{
+  background-color: #c9ccd6;
 }
 
-#tab-pan-3 {
-  background: url('../images/mountain03.jpg') no-repeat center center;
+#left-about {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+  
+}
+
+#right-about {
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+ 
+}
+
+#mid-about {
+  width: 33%;
+  margin: auto;
+}
+
+hr {
+  border-top: 1px solid #3a3a3a;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.left-about-heading {
+  width: 60%;
+  line-height: 20px;
+  float: right;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.right-about-heading {
+  width: 60%;
+  line-height: 20px;
+  float: left;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+  text-align: right;
+}
+
+.right-about-heading p {
+  text-align: right;
+}
+
+.main-head {
+  text-align: center;
+  margin: 20px;
+  font-size: 250%;
+}
+
+#circle-container {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#circle-cover-bg {
+  background: url(../images/ethos-center-image.jpg) no-repeat center center;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/*=========================================== PAN2 ========*/
+#tab-pan2 {
+  background: url('../images/2.1.jpg') no-repeat center center;
 
 }
 
-#tab-pan-4 {
-  background: url('../images/mountain04.jpg') no-repeat center center;
+#tab-pan3 {
+  background: url('../images/3.1.jpg') no-repeat center center;
+
+}
+
+#tab-pan4 {
+  background: url('../images/4.1.jpg') no-repeat center center;
 
 }
 
 .tabs [id^="tab"]:checked+label {
   color: #98c004;
-  pointer-events:unset;
+  pointer-events:none;
  
 }
 
 .tabs [id^="tab"]:checked~[id^="tab-pan"] {
-  display: block;
+  display:block;
 }
 
 /*=========================================== FOOTER ========*/
@@ -177,3 +249,8 @@ footer i {
   font-size: 160%;
   color: #0c162c;
 }
+
+
+
+
+/*=================================== SMALL SCREEN SETUP ========*/

@@ -73,7 +73,7 @@ h2 {
   padding-bottom: 10px;
 }
 
-#events {
+#programs {
   overflow: hidden;
   position: relative;
   width: 100%;
@@ -101,10 +101,11 @@ h2 {
   background-color:#0c162c; 
   border-bottom: 1px solid #fff;
   color: #fff;
+  text-align: center;
 }
 
 .tabs label:hover {
-  background-color: #98c004;
+  color: #98c004;
 }
 
 .tabs .tab-pan {
@@ -117,10 +118,20 @@ h2 {
 }
 
 .tabs p {
-  
   margin-left: 30px;
   margin-top: 30px;
+}
 
+
+.tabs [id^="tab"]:checked+label {
+  color: #0c162c;
+  background-color: #98c004;
+  pointer-events:none;
+ 
+}
+
+.tabs [id^="tab"]:checked~[id^="tab-pan"] {
+  display:block;
 }
 
 /*=========================================== PAN1 ========*/
@@ -152,6 +163,11 @@ hr {
   width: 100%;
   margin: 5px 0;
 }
+
+.dates{
+  text-align: right;
+}
+
 
 .left-about-heading {
   width: 60%;
@@ -206,26 +222,51 @@ hr {
 
 }
 
+/*=========================================== PAN3 ========*/
 #tab-pan3 {
   background: url('../images/3.1.jpg') no-repeat center center;
 
 }
 
+/*=========================================== PAN4 ========*/
 #tab-pan4 {
   background: url('../images/4.1.jpg') no-repeat center center;
+}
+
+#events-4 {
+  background-image: url('../images/dublin-city.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  overflow:hidden;
 
 }
 
-.tabs [id^="tab"]:checked+label {
-  color: #98c004;
-  pointer-events:none;
- 
+#events-4 div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, .6);
+  width: 25%;
+  height: 500px;
+  float: left;
+  padding: 30px 0 0 10px ;
+  text-align: center;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  box-sizing:border-box;
 }
 
-.tabs [id^="tab"]:checked~[id^="tab-pan"] {
-  display:block;
+#events-4 li{
+  text-align: left;
+  padding: 30px;
+  text-transform: uppercase;
 }
 
+#events-4 h5 {
+float: right;
+margin-bottom: 4px;
+
+}
 /*=========================================== FOOTER ========*/
 
 footer {
@@ -236,7 +277,7 @@ footer {
 }
 
 footer ul {
-  text-align: left;
+  text-align: center;
 }
 
 footer li {
@@ -245,11 +286,16 @@ footer li {
 }
 
 footer i {
-
   font-size: 160%;
   color: #0c162c;
 }
 
+footer p {
+  font-size: smaller;
+  text-align: center;
+  font: inherit;
+  margin-top: 20px;
+}
 
 
 

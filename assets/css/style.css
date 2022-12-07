@@ -288,3 +288,13 @@ footer p {
 
 
 /*=================================== SMALL SCREEN SETUP ========*/
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px){
+  
+  #tab-pan1{
+    height: auto;
+      
+  }
+}
+

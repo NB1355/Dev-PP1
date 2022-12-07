@@ -158,37 +158,40 @@ hr {
 ================== PAN1 ========*/
 
 #tab-pan1 {
-  background-color: #c9ccd6;
+  background-color: #0c162c;
+  border-bottom: 1px solid #fff;
  
 }
 
 
 
 #left-about {
-  background-color: #c00462;
-  
-  width: 33%;
+  width: 50%;
   float: left;
   padding-top: 30px;
+ }
 
-}
-
-#right-about {
-  background-color: #c00462;
-  
-  width: 33%;
+ #right-about {
+  width: 50%;
   float: right;
-  padding-top: 30px;
-
-}
-
-#mid-about {
-  background-color: #c00462;
-  width: 33%;
-  margin: auto;
-}
-
  
+  
+ }
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56%;
+}
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  
+}
 
 
 

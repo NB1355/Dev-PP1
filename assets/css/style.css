@@ -155,7 +155,7 @@ hr {
    border-bottom: 1px solid #fff;
 }
 
-#pan-content {
+.pan-content {
   position:absolute;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
@@ -165,7 +165,7 @@ hr {
   width: 80%;
 }
 
-#pan-content p {
+.pan-content p {
   margin-left: 30px;
   
   line-height: 160%;

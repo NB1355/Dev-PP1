@@ -37,7 +37,7 @@
         
         <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
           
-            <h2>Let's get in touch <i class="fa-brands fa-think-peaks"></i></h2>
+            <h2>Get in Touch <i class="fa-brands fa-think-peaks"></i></h2>
         
     
             <label for="fname">First Name</label>
@@ -47,30 +47,32 @@
             <input class="text-input" type="text" id="lname" name="last_name" required>
             
             <label for="email">Email Address</label>
-            <input class="text-input" type="email" id="email" name="email_address" required>
-        
-            <p style="color:# ;">Professinal Programs</p><br>
+            <input class="text-input" type="email" id="email" name="email_address" required>      
             
-            <label for="sommer">Sommer</label>
-            <input type="radio" id="sommer" name="pro-event" value="sommer" required>
+            <p>Interest in Professinal Programs</p>
+            <div>
+                
+                <label for="sommer">Sommer</label>
+                <input type="radio" id="sommer" name="pro-event" value="sommer" >
+                
+                <label for="winter">  Winter</label>
+                <input type="radio" id="winter" name="pro-event" value="winter" >
+                
+                <label for="both">  Both</label>
+                <input type="radio" id="both" name="pro-event" value="both" >
             
-            <label for="winter">Wnter</label>
-            <input type="radio" id="winter" name="pro-event" value="winter" required>
+            </div>    
+                            
+            <div>
+                <p>Your Message</p>
+                <textarea name="message" rows="5" cols="52" ></textarea>
+            </div>
             
-            <label for="both">Both</label>
-            <input type="radio" id="both" name="pro-event" value="both" required>
+            <div>
+                <input class="send-button" type="submit" value="send">
+            </div>
+            
 
-            <label for="sommer">Sommer</label>
-            <input type="radio" id="sommer" name="pro-event" value="sommer" required>
-            
-            <label for="winter">Wnter</label>
-            <input type="radio" id="winter" name="pro-event" value="winter" required>
-            
-            <label for="none">None</label>
-            <input type="radio" id="none" name="pro-event" value="none" required>
-            
-            
-            <input class="join-button" type="submit" value="send">
         </form>
         </div>
     

@@ -301,11 +301,11 @@ footer p {
 /*=================================== Gallary ==================*/
 
 #photos {
+  column-count: 4;
   clear: both;
   line-height: 0;
-  column-count: 4;
   column-gap: 0;
-}
+ }
 
 #photos > img {
   width: 100%;
@@ -313,15 +313,6 @@ footer p {
 
 
 /*=================================== SMALL SCREEN SETUP ========*/
-@media screen and (max-width: 950px) {
-  #photos {
-    column-count: 3;
-}
-
-
-}
-
-
 
 @media screen and (max-width: 800px) {
 
@@ -352,6 +343,8 @@ footer p {
   }
 }
 
+@media screen and (max-width: 950px) {
   #photos {
-      column-count: 2;
-  }
+    column-count: 2;
+}
+}

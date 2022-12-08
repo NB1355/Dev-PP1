@@ -298,6 +298,18 @@ footer p {
 
 }
 
+/*=================================== Gallary ==================*/
+
+#photos {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+}
+
+#photos > img {
+  width: 100%;
+}
 
 
 /*=================================== SMALL SCREEN SETUP ========*/
@@ -329,7 +341,5 @@ footer p {
   .pan-content {
     font-size: 1.5vmax;
   }
-
-
 
 }

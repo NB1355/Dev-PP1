@@ -132,7 +132,7 @@ hr {
   display: none;
   overflow: hidden;
   width: 100%;
-  
+
   border-bottom: 1px solid #0c162c;
   height: 500px;
 }
@@ -154,22 +154,23 @@ hr {
 
 #tab-pan1 {
   border-bottom: 1px solid #fff;
+  margin-right: 2%;
 }
 
 .pan-content {
-  position: relative;
-  float: right;
-  margin-top: 20vmin;
+  position: absolute;
+  align-items: center;
+  margin-top: 10%;
   background: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 30px;
-  width: 80%;
+  width: 99%;
 }
 
 .pan-content p {
-  
   line-height: 160%;
-  text-align: justify;
+  text-align: left;
+  margin-right: 100px;
 }
 
 .video-container {
@@ -184,8 +185,9 @@ hr {
   left: 0;
   width: 100%;
   height: 100%;
-
 }
+
+
 
 /*=========================================== PAN2 ========*/
 #tab-pan2 {
@@ -272,7 +274,7 @@ hr {
 footer {
   position: relative;
   height: 100px;
- 
+
 }
 
 footer div {
@@ -288,26 +290,33 @@ footer li {
 footer i {
   font-size: 160%;
   color: #0c162c;
- 
+
 }
 
 footer p {
   font-size: x-small;
-   
+
 }
 
 
 
 /*=================================== SMALL SCREEN SETUP ========*/
 
-/* For small screens sizes from 800px wide and down */
-
 @media screen and (max-width: 800px) {
- 
+
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
   #tab-pan1 {
     height: auto;
 
   }
+
   #events-4 div {
     padding: 2% 0 0 2%;
     font-size: 1.5vmax;
@@ -317,13 +326,9 @@ footer p {
     font-size: 1.5vmax;
   }
 
-  .pan-content  {
+  .pan-content {
     font-size: 1.5vmax;
-   
-
   }
- 
-  
 
 
 

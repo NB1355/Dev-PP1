@@ -320,7 +320,7 @@ footer p {
  
 .form-section {
   clear: left;
-  background: url('../images/runner1.jpg');
+  background: url('../images/1.1.jpg');
   background-size: cover;
   background-position: center;
   height: 900px;
@@ -329,7 +329,7 @@ footer p {
 .contact-form {
   margin: 150px 0 0 0 ;
   color: #fff;
-  background-color: rgba(60, 60, 60, 0.6);
+  background-color: rgba(60, 60, 60, 0.7);
   max-width: 400px;
   position: absolute;
   left:10%;

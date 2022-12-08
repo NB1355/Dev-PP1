@@ -313,6 +313,15 @@ footer p {
 
 
 /*=================================== SMALL SCREEN SETUP ========*/
+@media screen and (max-width: 950px) {
+  #photos {
+    column-count: 3;
+}
+
+
+}
+
+
 
 @media screen and (max-width: 800px) {
 
@@ -341,5 +350,8 @@ footer p {
   .pan-content {
     font-size: 1.5vmax;
   }
-
 }
+
+  #photos {
+      column-count: 2;
+  }

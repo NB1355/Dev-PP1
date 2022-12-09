@@ -5,7 +5,7 @@
 
 This website is developing in parallel to forming a new business idea that combines mountaineering and 
 professional photography services for the experts who interested in crossing over to the other domain. 
-Using only HTML 5 and CSS 3 is the first choice to get a static responsive website running fas
+Using only HTML 5 and CSS 3 is the first choice to get a static responsive website running fast.
 
 ![text](/assets/images/readme/devices.jpg)
 
@@ -13,10 +13,10 @@ Using only HTML 5 and CSS 3 is the first choice to get a static responsive websi
 # Table of Content
 xxxxxxxxxxxxxxxxxxxxxxxx
 
+ 
 
-A responsive website using only HTML 5 and CSS 3 to 
+## Business 
 
-## Business
 ### External Users' Goals
  
 

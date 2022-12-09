@@ -1,30 +1,28 @@
-# MOUNTAINEERING GLOBAL 
+# MOUNTAINEERING GLOBAL
 
-[Visit the Live Project here](https://nb1355.github.io/projects-c001-prd/)
+# Business
+
 
 This website is developing in parallel to forming a new business idea that combines mountaineering and 
 professional photography services for the experts who interested in crossing over to the other domain. 
 Using only HTML 5 and CSS 3 is the first choice to get a static responsive website running fast.
 
 
-![Initial Idea](assets/images/readme/Idea.jpg) with <img scr="assets/images/readme/Idea.jpg" width ="50" height="50">
+![Alt text](assets/images/readme/Idea.jpg) with <img scr="assets/images/readme/Idea.jpg" width ="50" height="50">
 
 ## Business oferrong professinal services to 
 Requierment []  
 
-# Table of Content
-xxxxxxxxxxxxxxxxxxxxxxxx
 
- 
 
-##  
 
 ### External Users' Goals
  
 
 
 ### Site Owner's Goals
-A
+
+# Table of Content
 
 ### Potential Features
 Display a selection of courses, programmes, and coaching for organisations and individuals.

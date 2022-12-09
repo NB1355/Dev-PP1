@@ -1,8 +1,11 @@
-# MOUNTAINEERING GLOBALV
-## [Phase-I]  Scope: Intro of the  Biz Idea, Sample a Photo Gallery, Provide direct contact option.
+# MOUNTAINEERING GLOBAL 
+## [Phase-I]  
+
 [Visit the Live Project here](https://nb1355.github.io/projects-c001-prd/)
 
-This website is developing parallel to forming a new business idea that combines mountaineering and professional photography services for professionals interested in crossing over to the other domain. Using only HTML 5 and CSS 3, is the firch choise to get a static responsive website running realy fast. 
+This website is developing in parallel to forming a new business idea that combines mountaineering and 
+professional photography services for the experts interested in crossing over to the other domain. 
+Using only HTML 5 and CSS 3 is the first choice to get a static responsive website running fas
 
 ![text](/assets/images/readme/devices.jpg)
 

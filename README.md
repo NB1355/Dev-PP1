@@ -9,40 +9,41 @@ Using only HTML 5 and CSS 3 is the first choice to get a static responsive websi
 ![Alt text](assets/images/readme/Idea.jpg) 
 
 # Business Requirements [Phase I]
-* Creative design to represent the main and branches of the business
-	* Welcome and introduction to 
-	* Introduction to professioal sommer programs
-	* Introduction to professinal winter programs
-	* Introduction to planed four season phptpgraphy programs
+* Creative design to represent the main branches of the business
+    * Welcome and introduction to our business
+    * Introduction to professional summer programs.
+    * Introduction to professional winter programs.
+    * Introduction to planned four-season photography programs.
+* Simple photo gallery to showcase our artistic side!
+* Simple contact form supporting lengthy messages!
 
-** 
+* Users Experience
+	* 4-5 clicks away for the user to get in touch with us! 
+	* easy navigation, proper visual experience
+	* comfortable with any type of device
 
-* 
+## Deliverd Product
 
-
->
-
-
-
-
-
-
-### External Users' Goals
- 
+![Alt text](assets/images/readme/devices.jpg)
 
 
-### Site Owner's Goals
 
-# Table of Content
 
-### Potential Features
-Display a selection of courses, programmes, and coaching for organisations and individuals.
 
-View existing and bespoke courses, programmes and coaching opportunities for organisations and individuals.
+## Next Phase Potential Features
+* Interactive Event Calander
+* Interactive Galley
+* Registration and autentication
+* onlone shop
 
-Check next course dates and available times, and find the "training centre" (currently my home).
+## 
 
-Book courses (yet to be implemented using JavaScript and Python 3). Courses are currently booked via the footer middle links (Mobile, WhatsApp, Email, LinkedIn, YouTube).
+
+
+
+
+
+
 
 ## Processes
 

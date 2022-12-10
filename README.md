@@ -53,14 +53,12 @@ A list of the languages, frameworks, libraries, and other tools used for this pr
 * 
 
 
-## Acknowledgements
+## External Resources
 
 * Using Google fonts Ozwald and Lato in different sizes for all text.
-* Using FontAwesome icons to add visual elements to key website features.
-* Using this image as the background image throughout the website.
+* [W3schools](https://www.w3schools.com/) as extra knowledge source
+* [Font Awesome](https://fontawesome.com/) icons to add visual elements to key website features.
 
-* [CSS Before and After pseudo elements explained - part two: the content property by Kevin Powell](https://www.youtube.com/watch?v=xoRbkm8XgfQ)
-	* Using the hover tool-tip function for the fixed footer FontAwesome icons: resumé, social and contact links, and location.
 
 
 
@@ -69,10 +67,6 @@ A list of the languages, frameworks, libraries, and other tools used for this pr
 	* A website on more than CSS, for example Articles, Videos, Almanac of CSS Features, Code Snippets, Newsletter, Jobs, and Guides all related to front-end web development. I get happily "distracted" by this site, always learning and testing new skills.
 * [Master CSS Grids](https://mozilladevelopers.github.io/playground/css-grid/)
 	* The best explanation, example, and walkthrough of CSS Grids I've yet to come across. It's simple, really.
-* [FREE: Pro Git eBook by Scott Chacon and Ben Straub](https://git-scm.com/book/en/v2)
-	* Read parts of this eBook to better understand Git.
-* [FREE PDF: Elements of User Experience Design by Jesse James Garrett (second edition 2010)](https://www.academia.edu/33276128/The_Elements_of_User_Experience_-_Jesse_James_Garrett)
-	* User experience design makes sure the aesthetic and functional aspects of an element works in the context of the rest of the website.
 
 
 

@@ -3,12 +3,12 @@
 ## Offering professional services for photography in the mountains.
 
 This website is developing in parallel to forming a new business idea that combines mountaineering and 
-professional photography services for the experts who interested in crossing over to the other domain. 
+professional photography services for experts interested in crossing over to the other domain. 
 Using only HTML 5 and CSS 3 is the first choice to get a static responsive website running fast. 
 
 ![Alt text](assets/images/readme/Idea.jpg) 
 
-# Business Requirements [Phase I]
+## Business Requirements [Phase I]
 * Creative design to represent the main branches of the business
     * Welcome and introduction to our business
     * Introduction to professional summer programs.
@@ -16,181 +16,53 @@ Using only HTML 5 and CSS 3 is the first choice to get a static responsive websi
     * Introduction to planned four-season photography programs.
 * Simple photo gallery to showcase our artistic side!
 * Simple contact form supporting lengthy messages!
+* Access to social media directly
 
 * Users Experience
 	* 4-5 clicks away for the user to get in touch with us! 
 	* easy navigation, proper visual experience
-	* comfortable with any type of device
+	* comfortable with any device size
 
-## Deliverd Product
+## Delivered Product
 
 ![Alt text](assets/images/readme/devices.jpg)
-
-
-
+[Visit live here](https://nb1355.github.io/projects-c001-prd/)
 
 
 ## Next Phase Potential Features
 * Interactive Event Calander
 * Interactive Galley
 * Registration and autentication
-* onlone shop
-
-## 
+* online shop
 
 
 
-
-
-
-
-
-## Processes
-
-### UX
-
-The website provides a responsive and easy-to-use visual design, based on a good representation of the elements, and with intuitive navigation.
-
-The website follows a hierarchical Information Architecture and is navigable via the hamburger-menu, which makes it easy to navigate between the web pages.
-
-There are three main actors/roles that use the services provided by the website: Client, Collaborator, and Individual.
-
-* As a client, I want to improve the knowledge, skills, and attitude of my employees so that the performance of my organisation is greatly improved.
-	* As a client, I want to view the training and development, and coaching opportunities provided by GaffCo Consulting so that I can plan the training and development plans of my employees.
-	* As a client, I want to book the relevant programmes for the training and development for my employees so that they can perform better on-the-job.
-	* As a client, I want to contact the owner (Naoise Gaffney) to discuss the details of the programmes so that I can plan the continued development of my employees.
-
-* As a collaborator, I want to work with the owner (Naoise Gaffney) so that we can provide bespoke or off-the-shelf training and development opportunities to our clients.
-	* As a collaborator, I want to view the training and development, and coaching opportunities provided by GaffCo Consulting so that I can plan the training and development plans for my clients.
-	* As a collaborator, I want to book the relevant programmes for the training and development of my clients so that I can provide professional skills training.
-	* As a collaborator, I want to contact the owner (Naoise Gaffney) to discuss the details of the programmes so that I can plan the continued development of my clients.
-
-* As an individual, I want to improve my professional skills so that I can perform better on-the-job.
-	* As an individual, I want to view the coaching opportunities provided by GaffCo Consulting so that I can improve my professional skills.
-	* As an individual, I want to book the relevant coaching opportunities provided by GaffCo Consulting so that I can improve my professional skills.
-	* As an individual, I want to contact the owner (Naoise Gaffney) to discuss the details of the coaching opportunities so that I can improve my professional skills.
-
-The User Experience and Design MarkDown document covers the 5 planes in detail:
-
-[User Experience and Design MarkDown](https://github.com/NaoiseGaffney/Professional-Training-Development/blob/master/docs/User%20Experience%20and%20Design.md)
-
-Balsamiq wireframes and mockups of the website (simplified views, and not complete representations):
-
-[Large Wireframe Diagrams of the Website](https://github.com/NaoiseGaffney/Professional-Training-Development/blob/master/docs/User-Centric%20Front-End%20Development%20Project%201.pdf)
-
-[Small Wireframe Diagrams with Notes (Use Cases) of the Website](https://github.com/NaoiseGaffney/Professional-Training-Development/blob/master/docs/User-Centric%20Front-End%20Development%20Project%201%20-%20Includes%20Notes.pdf)
-
-
-
-
-## Solution
-### Features
-
-The website enables clients (corporate and individuals) and collaborators to view and book training and coaching opportunities to suit their training and development needs.
-
-The website provides the owner with a global on-line presence, and an ability to position and prove the value of the training and development services provided.
-
-The website provides multiple communication channels, enabling both direct and indirect communication between clients, collaborators, and owner.
-
-This is a layered website making use of 3 dimensions (x, y, z). The background image or colour in the Safari browser is at the bottom (`z-index: -1`). The fixed footer is on top of the background and scrollable text. The hamburger-menu and menu items are on top of the background and fixed footer (`z-index: 1` and `z-index: 2`). The course detail modal is on top of everything, closest to the user (`z-index: 4`).
-
-[User Walkthrough Video - an Overview](https://youtu.be/YxqJtqwyjEs)
-
-#### Existing Features
-These features are shared across all web pages on the website:
-
-- Right-top Hamburger-menu: allows users to select the most suitable training and development, and coaching opportunity by having them click on the hamburger-menu and subsequent menu choice (Home, Organisations, Individuals, Programmes).
-- Fixed footer - Professional Trainer and Coach: allows users to read my resumé to add to the websites credibility ("been there, done that, and have the t-shirt") by clicking on the graduation-cap or text link or tool-tip.
-- Fixed footer - Copyright 2020 GaffCo Consulting: allows users to navigate to my "training centre (home)" by clicking on the location-arrow or text link or tool-tip.
-- Fixed footer - Mobile (phone-call): allows users to call me on their mobile or via Skype for Business (if installed) to talk to me about training and development, and coaching, by clicking on the FontAwesome phone icon.
-- Fixed footer - WhatsApp (message): allows users to WhatsApp message me on their mobile or laptop/desktop (if installed) to message me about training and development, and coaching, by clicking on the FontAwesome WhatsApp icon.
-- Fixed footer - Email (message): allows users to Email me on their mobile or laptop/desktop (if mailto: is linked) to message me about training and development, and coaching, by clicking on the FontAwesome Email icon.
-- Fixed footer - LinkedIn (website --> message): allows users to send me a LinkedIn message about training and development, and coaching, by clicking on the FontAwesome LinkedIn icon.
-
-The Fixed footer FontAwesome icons zoom-in (`transform: scale (1.5)`) when hovered over, while also featuring a tool-tip (`i[tool-tip]`) to provide additional information. This is shared across all web pages on the website.
-
-These features are unique or different on the web pages across the website:
-
-The [Homepage: index.html](https://naoisegaffney.github.io/Professional-Training-Development/index.html) provides the following features:
-
-- Background image: Emotional image of success after a hard run - sets the tone of the website, "You too will be equally successful and elated after attending our courses!"
-- Motivational mission statement "Organisations Achieve Greater Value through Professionally Coached Employees" - sets the tone of the website stating of a fact, the real reason users are visiting this website.
-
-The [Organisations page: organisations.html](https://naoisegaffney.github.io/Professional-Training-Development/organisations.html) provides the following features:
-
-- Organisations: allow users to know they're on the Organisations page, and presents them with two menus, one for Professional Courses and the other for QQI Courses.
-	- Organisations H1 with FontAwesome fa-sitemap icon makes it clear on which page the user is on.
-	- Professional Courses Flex Div provides the relevant clickable course options.
-	- QQI Courses Flex Div provides the relevant clickable courses.
-- Clickable Course Links: allows users to view course details, dates, and training location, by clicking on each link/course item.
-- Course Modal: allows users to view course details and either book a course or close the modal by clicking on the 'Book Now!' button or the closing 'x'.
-
-The [Individuals page: individuals.html](https://naoisegaffney.github.io/Professional-Training-Development/individuals.html) provides the following features:
-
-- Individuals: allow users to know they're on the Individuals page, and presents them with two menus, one for Professional Skills Coaching and the other for Specific Coaching Occasions.
-	- Individuals H1 with FontAwesome fa-user icon makes it clear on which page the user is on.
-	- Professional Skills Coaching Flex Div provides the relevant clickable course options.
-	- Specific Coaching Occasions Flex Div provides the relevant clickable courses.
-- Clickable Course Links: allows users to view course details, dates, and training location, by clicking on each link/course item.
-- Course Modal: allows users to view course details and either book a course or close the modal by clicking on the 'Book Now!' button or the closing 'x'.
-
-The [Programmes page: programmes.html](https://naoisegaffney.github.io/Professional-Training-Development/programmes.html) provides the following features:
-
-- Individuals: allow users to know they're on the Individuals page, and presents them with two menus, one for Professional Skills Coaching and the other for Specific Coaching Occasions.
-	- Individuals H1 with FontAwesome fa-user icon makes it clear on which page the user is on.
-	- Professional Skills Coaching Flex Div provides the relevant clickable course options.
-	- Specific Coaching Occasions Flex Div provides the relevant clickable courses.
-- Clickable Course Links: allows users to view course details, dates, and training location, by clicking on each link/course item.
-- Course Modal: allows users to view course details and either book a course or close the modal by clicking on the 'Book Now!' button or the closing 'x'.
-
-#### Features Left to Implement
-- 'Book Now!' button function (JS) or --> Form (JS/Python 3).
-- Additional depth of detail for each course, for example Planned Learning Outcomes.
-- Client, Collaborator, and Individual Testimonials to increase credibility and trust.
-- Blog/Vlog to sell visions, ideas, possibilities of value to the users, with examples of course and coaching work (2 to 3-minute snippets).
-- The design decision is to rely on simple Flexbox and Grid Layouts, rather than relying on a framework such as Bootstrap 4, and still maintain a responsive web design. In future I may stick to solely to Grid with the `minmax()` function to ensure a responsive web design, or venture further into Bootstrap 4 territory. I've left the Grid layout defined in style.css as-is for future additions.
 
 ## Technology
 
 A list of the languages, frameworks, libraries, and other tools used for this project.
 
-### Code:
-* [HTML 5.2. - W3C Recommendation, 14 December 2017](https://www.w3.org/TR/html52/)
-	* The project uses HTML 5 to create the content.
-* [CSS 3 CSS - Snapshot 2018 W3C Working Group Note, 22 January 2019](https://www.w3.org/TR/css-2018/)
-	* The project uses CSS 3 to style the content and provide the layout.
+* The project uses HTML 5 to create the content.
+* The project uses CSS 3 to style the content and provide the layout.
 
-### Development and Staging Platforms and Environments
-* [GitHub / GitPod /Git / GitHub Pages](https://github.com/)
-	* The project uses GitHub:
-		* GitPod to create and edit the project files (HTML 5 and CSS 3).
-		* Git to add, commit, and push the project files to GitHub.
-		* GitHub Pages turns GitHub Repositories into Websites.
-* [Code Institute GitPod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
-	* Using the GitPod Full Template from the Code Institute for my project.
+* The project uses GitHub:
+	* GitPod to create and edit the project files (HTML 5 and CSS 3).
+	* Git to add, commit, and push the project files to GitHub.
+	* GitHub Pages turns GitHub Repositories into Websites.
+	* Using the GitPod Full Template from the Code Institute.
+* 
 
 
-### Documentation Tools
+## Acknowledgements
 
-
-### Acknowledgements and Attributions of Used Features and Functions
-* [Google Fonts: Raleway](https://fonts.googleapis.com/css?family=Raleway%7C&display=swap)
-	* Using this font in different sizes for all text.
-
-* [FontAwesome CDN](https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
-	* Using FontAwesome font icons to add visual elements to key website features, making the website memorable and easier to navigate.
-
-* [xxxxxxxxxxxxxxxxxxxxxx](https://cdn.pixabay.com/photo/2019/01/27/22/32/mountains-3959204_1280.jpg)
-	* Using this image as the background image throughout the website.
+* Using Google fonts Ozwald and Lato in different sizes for all text.
+* Using FontAwesome icons to add visual elements to key website features.
+* Using this image as the background image throughout the website.
 
 * [CSS Before and After pseudo elements explained - part two: the content property by Kevin Powell](https://www.youtube.com/watch?v=xoRbkm8XgfQ)
 	* Using the hover tool-tip function for the fixed footer FontAwesome icons: resumé, social and contact links, and location.
-* 
-[Pure CSS Hamburger Menu & Overlay by Traversy Media](https://www.youtube.com/watch?v=DZg6UfS5zYg)
-	* Using the described hamburger menu function for my menu.
 
-* [Target Modal from W3Schools](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_target_modal)
-	* Using this modal function for my course details.
+
 
 ### General Knowledge and Hours of Reading
 * [Website: CSS Tricks](https://css-tricks.com/)
@@ -202,12 +74,8 @@ A list of the languages, frameworks, libraries, and other tools used for this pr
 * [FREE PDF: Elements of User Experience Design by Jesse James Garrett (second edition 2010)](https://www.academia.edu/33276128/The_Elements_of_User_Experience_-_Jesse_James_Garrett)
 	* User experience design makes sure the aesthetic and functional aspects of an element works in the context of the rest of the website.
 
-### Elixir of Life
-* [Strong Black French Press Coffee](https://www.youtube.com/watch?v=st571DYYTR8)
-	* Keeps me alert and on-schedule; keeps me going through the night. This is the secret source of my programming-powers. :-)
 
-### Technological Design Decision
-The design decision is to rely on simple Flexbox and Grid Layouts, rather than relying on a framework such as Bootstrap 4, and still maintain a responsive web design. In future I may stick solely to Grid with the `minmax()` function to ensure a responsive web design, or venture into Bootstrap 4 territory.
+
 
 ## Testing
 ### Manual Testing Technology

@@ -210,13 +210,8 @@ When using Visual Studio Code with GitHub I perform the following steps:
 
 Code Institute Mentor - [GitHub: 5pence - Spencer Barriball](https://github.com/5pence)
 
-### Content
-- [GitHub: Project Repository] xxxxxxxxxxxxxxxxxxxxxxxx
--
 
-### Media
-* [FontAwesome CDN](https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
-	* Using FontAwesome font icons to add visual elements to key website features, making the website memorable and easier to navigate.
+
 
 ## Acknowledgements
 ###  * Special thanks to my mentor Naoise Olof Seán Gaffney, for supporting me in designing and developing the concept.

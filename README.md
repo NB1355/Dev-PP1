@@ -26,7 +26,7 @@ Using only HTML 5 and CSS 3 is the first choice to get a static responsive websi
 ## Delivered Product
 
 ![Alt text](assets/images/readme/devices.jpg)
-[Visit live here](https://nb1355.github.io/projects-c001-prd/)
+[Visit live](https://nb1355.github.io/projects-c001-prd/)
 
 
 ## Next Phase Potential Features
@@ -38,37 +38,33 @@ Using only HTML 5 and CSS 3 is the first choice to get a static responsive websi
 
 
 
-## Technology
-
-A list of the languages, frameworks, libraries, and other tools used for this project.
+## Technology / Tools
 
 * The project uses HTML 5 to create the content.
 * The project uses CSS 3 to style the content and provide the layout.
-
 * The project uses GitHub:
 	* GitPod to create and edit the project files (HTML 5 and CSS 3).
 	* Git to add, commit, and push the project files to GitHub.
 	* GitHub Pages turns GitHub Repositories into Websites.
 	* Using the GitPod Full Template from the Code Institute.
-* 
+    * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    * [W3C Markup Validator](https://validator.w3.org/)
+
 
 
 ## External Resources
+* [Google fonts]('https://fonts.googleapis.com/css?family=Montserrat:300') using Google fonts Ozwald and Lato in different sizes for all text 
+* [Font Awesome](https://fontawesome.com/) icons for visual elements to key elements
+* [@kraigadams ]("https://www.youtube.com/embed/WKcnvPDgifA?autoplay=1&mute=1") sample hiking video used as home 1st background
+* [Thephotoargus](https://www.thephotoargus.com/most-famous-mountains-in-the-world-to-photograph/) source for the pictures 
 
-* Using Google fonts Ozwald and Lato in different sizes for all text.
-* [W3schools](https://www.w3schools.com/) as extra knowledge source
-* [Font Awesome](https://fontawesome.com/) icons to add visual elements to key website features.
-
-
-
-
-### General Knowledge and Hours of Reading
+## General Knowledge and Hours of Reading
+* [W3schools](https://www.w3schools.com/)
 * [Website: CSS Tricks](https://css-tricks.com/)
-	* A website on more than CSS, for example Articles, Videos, Almanac of CSS Features, Code Snippets, Newsletter, Jobs, and Guides all related to front-end web development. I get happily "distracted" by this site, always learning and testing new skills.
 * [Master CSS Grids](https://mozilladevelopers.github.io/playground/css-grid/)
-	* The best explanation, example, and walkthrough of CSS Grids I've yet to come across. It's simple, really.
-
-
+* [Stackoverflow](https://stackoverflow.com/)
+* [codepen](https://codepen.io/mperetto/pen/QYQEGK)
+*
 
 
 ## Testing
